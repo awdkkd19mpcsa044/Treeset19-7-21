@@ -1,0 +1,22 @@
+import java.util.*;
+public class treeset
+{
+public static void main(String args[])
+{
+HashMap<Integer,String> v = new HashMap<Integer,String>();
+Scanner sc = new Scanner(System.in);
+int n;
+int key;
+String value;
+System.out.println("enter n value");
+n = sc.nextInt();
+TreeMap<Integer,String> a = new TreeMap<Integer,String>(v);
+for(int i=0;i<n;i++)
+{
+key = sc.nextInt();
+value=sc.next();
+a.put(key,value);
+}
+System.out.println(a);
+}
+}
